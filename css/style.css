@@ -135,3 +135,36 @@ background-image: url(./pen-holder.jpg),url(./headphone.jpg),url(./coffe.jpg);
   font-size: 1.5rem;
   color: #6e6e6d;
 }
+#responsible{
+  height: 56rem;
+  background-image:url(./shape.jpg);
+  background-repeat: no-repeat;
+  
+  
+}
+.responsible-design-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height:100%;
+  grid-gap: 3rem;
+  margin: 8rem 0;
+}
+/* .responsible-design-grid:nth-child(1){
+  background: transparent url(./laptop.jpg) no-repeat center / cover;
+} */
+.responsible-design-grid h5{
+  font-size: 1.5rem;
+  color:#ff6d6d ;
+  margin-top: 5rem;
+ 
+  
+}
+.responsible-design-grid h3{
+  font-size: 3.5rem;
+  margin-top: 2rem;
+}
+.responsible-design-grid p{
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  color: #6e6e6d;
+}
